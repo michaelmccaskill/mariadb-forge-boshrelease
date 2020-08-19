@@ -45,6 +45,8 @@ meta:
   azs: <%= plan["azs"] %>
 <% end %>
 
+  tags: <%= plan["tags"] %>
+
 EOF
 
 

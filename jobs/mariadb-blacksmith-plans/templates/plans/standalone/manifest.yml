@@ -38,3 +38,5 @@ instance_groups:
           admin_password: (( grab meta.admin_password ))
           admin_username: (( grab meta.admin_username ))
           database_name:  (( grab meta.database_name ))
+
+tags: (( grab meta.tags ))
